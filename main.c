@@ -1,7 +1,10 @@
-#include <stdio.h>
+#include <stdio.h
 #include "myheader.h"
 int main(void) {
-printHello();
-printBye();
-return 0;
+	char name[17] = {0,};
+	printf("Name: ");
+	scanf("%s", name);
+	printHello();
+	printBye();
+	return 0;
 }
